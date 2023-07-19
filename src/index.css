@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dark {
+  background-color: #bcc3d080;
+}
+
+body {
+  font-family: 'proxima-nova', sans-serif;
+}
+
+.App {
+  margin: 0 auto;
+  width: 1121px;
+}

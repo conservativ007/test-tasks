@@ -1,0 +1,56 @@
+.popup-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  .popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 500px;
+    height: 468px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 16px;
+    padding: 24px;
+
+    background-color: white;
+
+    .user-name {
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        cursor: pointer;
+      }
+    }
+
+    .user-info div {
+      font-size: 14px;
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+
+    .user-info div p:nth-child(2) {
+      color: #8189a3;
+    }
+
+    .addition-info p:nth-child(1) {
+      font-size: 18px;
+    }
+
+    .addition-info p:nth-child(2) {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #8189a3;
+    }
+  }
+}
